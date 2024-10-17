@@ -7,7 +7,7 @@ const Card = ({ title, description, imgSrc, onSale, price, originalPrice }) => {
 
   const increaseQuantity = () => setQuantity(quantity + 1);
   const decreaseQuantity = () => {
-    if (quantity > 1) setQuantity(quantity - 1); 
+    if (quantity > 1) setQuantity(quantity - 1);
   };
 
   const truncateDescription = (desc, maxLength) => {
@@ -42,18 +42,25 @@ const Card = ({ title, description, imgSrc, onSale, price, originalPrice }) => {
       <div className="img-cards">
         <img src={imgSrc} alt={title} />
       </div>
+
       <div className="card-info">
-        <h1 className="title">{title}</h1>
-        <h2 className="price-container">
+        <div>
+        <h2 className="title">{title}</h2>
+        </div>
+        <div>
+        <p className="price-container">
           <span className="price">{price}</span>
           {onSale && <span className="original-price">{originalPrice}</span>}
-        </h2>
-
-
+        </p>
+        </div>
+        <div>
         <p className="description" title={description}>
           {truncateDescription(description, 62)}
         </p>
+        </div>
+        
       </div>
+
       <div className="button-container">
         <button className="details-button">DETAILS</button>
         <button className="add-button">

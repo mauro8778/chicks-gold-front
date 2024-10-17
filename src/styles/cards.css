@@ -6,7 +6,7 @@
   background-color: #34384b;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   position: relative;
   box-sizing: border-box;
@@ -18,10 +18,8 @@
 }
 
 .card-info {
-  position: relative;
-  top: -20px;
-  margin-top: 80px;
-  text-align: left;
+  padding: 10px;
+  margin-top: 2rem;
 }
 
 .img-cards {
@@ -93,7 +91,7 @@
 }
 
 .mini-card .icon {
-  margin-left: px;
+  margin-left: 5px;
   font-size: 12px;
 }
 

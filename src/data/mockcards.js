@@ -117,6 +117,22 @@ export const cardsData = [
         description: "The Torva platelegs are part of the Torva armour set, requiring",
         imgSrc: "/imagenes/opa2.png",
         onSale: false,
+    },
+    {
+        id: 15,
+        title: "Torva platelegs",
+        price: "1100 USD",
+        description: "The Torva platelegs are part of the Torva armour set, requiring",
+        imgSrc: "/imagenes/opa2.png",
+        onSale: false,
+    },
+    {
+        id: 15,
+        title: "Torva platelegs",
+        price: "1100 USD",
+        description: "The Torva platelegs are part of the Torva armour set, requiring",
+        imgSrc: "/imagenes/opa2.png",
+        onSale: false,
     }
     
 ];
