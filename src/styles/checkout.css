@@ -1,0 +1,59 @@
+.checkout-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  background-color: #34384B;
+  padding: 30px;
+  min-width: 325px; /* Añadido para establecer el ancho mínimo */
+  min-height: 200px; /* Añadido para establecer la altura mínima */
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+}
+
+.checkout-title {
+  margin-bottom: 15px; 
+  font-size: 25px; 
+  color: white; 
+  margin-left: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Añadido para espacio entre imágenes */
+}
+
+.payment-image {
+  width: 80px; 
+  height: auto;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .checkout-section {
+    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
+  }
+  
+  .checkout-title {
+    font-size: 22px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+  }
+
+  .payment-image {
+    width: 60px; /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+  }
+}
+
+@media (max-width: 576px) {
+  .checkout-section {
+    padding: 15px; /* Ajusta el padding para pantallas muy pequeñas */
+  }
+  
+  .checkout-title {
+    font-size: 20px; /* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+  }
+
+  .payment-image {
+    width: 50px; /* Ajusta el tamaño de las imágenes para pantallas muy pequeñas */
+  }
+}
