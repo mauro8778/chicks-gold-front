@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  flex-wrap: wrap; 
 }
 
 .logo img {
@@ -29,21 +29,20 @@
   transform: scaleY(2);
 }
 
-/* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
   .separator {
     flex-direction: row;
-    width: 100%; /* Hacer que abarque el 100% del ancho */
-    justify-content: space-between; /* Espaciar el texto y la línea horizontal */
-    align-items: center; /* Centrar verticalmente el texto */
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: center; 
   }
 
   .separator::before {
-    content: ''; /* Eliminar el carácter '—' */
-    width: 100%; /* Abarcar el ancho total disponible */
-    margin: 0 10px; /* Espacio entre el separador y el contenido */
-    border-bottom: 1px solid white; /* Crear la barra horizontal */
-    height: 0; /* Eliminar cualquier altura adicional */
+    content: ''; 
+    width: 100%; 
+    margin: 0 10px; 
+    border-bottom: 1px solid white; 
+    height: 0; 
   }
 }
 
@@ -116,56 +115,53 @@
   color: white;
 }
 
-/* Media Queries para Responsividad */
 @media (max-width: 768px) {
   .navbar {
-    padding: 1rem; /* Reducir el padding en pantallas pequeñas */
+    padding: 1rem; 
   }
-
   .navbar ul {
-    margin-left: 0; /* Eliminar margen negativo en pantallas pequeñas */
-    gap: 1rem; /* Ajustar el espacio entre elementos de la lista */
-    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
-    justify-content: center; /* Centrar los elementos */
+    margin-left: 0; 
+    gap: 1rem; 
+    flex-wrap: wrap; 
+    justify-content: center; 
   }
 
   .navbar-right {
-    margin-right: 0; /* Eliminar margen derecho en pantallas pequeñas */
-    gap: 15px; /* Ajustar el espacio entre elementos en la derecha */
+    margin-right: 0; 
+    gap: 15px; 
   }
 
   .country-dropdown select {
-    margin-right: 0; /* Eliminar margen en pantallas pequeñas */
-    width: 100%; /* Hacer el dropdown ocupar el ancho completo */
-    margin-top: 10px; /* Añadir margen superior para separación */
-  }
+    margin-right: 0; 
+    width: 100%; 
+    margin-top: 10px; 
 }
 
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: column; /* Cambiar a columna en pantallas muy pequeñas */
-    align-items: flex-start; /* Alinear elementos al inicio */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
 
   .separator {
-    font-size: 20px; /* Ajustar tamaño de fuente */
+    font-size: 20px; 
   }
 
   .cart-icon {
-    margin-right: 0; /* Eliminar el margen lateral derecho */
-    margin-bottom: 10px; /* Añadir espacio debajo del icono */
-    justify-content: center; /* Centrar el icono */
-    width: 100%; /* Abarcar todo el ancho en pantallas pequeñas */
+    margin-right: 0; 
+    margin-bottom: 10px; 
+    justify-content: center; 
+    width: 100%; 
   }
 
   .login-button {
-    width: 100%; /* Hacer el botón ocupar todo el ancho */
-    padding: 10px; /* Ajustar padding */
-    justify-content: center; /* Centrar el contenido del botón */
+    width: 100%; 
+    padding: 10px; 
+    justify-content: center; 
   }
 
   .navbar ul {
-    flex-direction: column; /* Cambiar a columna para la lista */
-    gap: 10px; /* Ajustar el espacio entre elementos */
+    flex-direction: column; 
+    gap: 10px; 
   }
-}
+}}
