@@ -6,7 +6,7 @@ export const cardsData = [
         originalPrice: "200 USD", // Agregado
         description: "Requiring a prayer level of 65 to be worn, the 3rd Age Druid",
         imgSrc: "/imagenes/amuleto.png",
-        onSale: true,
+        onSale: false,
     },
     {
         id: 2,
