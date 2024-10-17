@@ -65,7 +65,7 @@ const Card = ({ title, description, imgSrc, onSale, price, originalPrice }) => {
         <button className="details-button">DETAILS</button>
         <button className="add-button">
           ADD
-          <div className="cart-icon">
+          <div className="addcart-icon">
             <FaShoppingCart size={16} color="white" />
           </div>
         </button>
