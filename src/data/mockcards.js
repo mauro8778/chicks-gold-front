@@ -12,7 +12,7 @@ export const cardsData = [
         id: 2,
         title: "Twisted Bow",
         price: "2000 USD",
-        originalPrice: "3000 USD",
+        originalPrice: "300 USD",
         description: "The twisted bow is a reward from the Chambers of",
         imgSrc: "/imagenes/arco.png",
         onSale: true,
