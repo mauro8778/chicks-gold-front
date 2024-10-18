@@ -4,9 +4,9 @@
   align-items: flex-start; 
   background-color: #34384B;
   padding: 30px;
-  min-width: 325px; /* Añadido para establecer el ancho mínimo */
-  min-height: 200px; /* Añadido para establecer la altura mínima */
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  min-width: 325px; 
+  min-height: 200px; 
+  box-sizing: border-box; 
 }
 
 .checkout-title {
@@ -19,7 +19,7 @@
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Añadido para espacio entre imágenes */
+  gap: 10px; 
 }
 
 .payment-image {
@@ -29,31 +29,29 @@
   margin: 0 5px;
 }
 
-/* Media Queries para Responsividad */
 @media (max-width: 768px) {
   .checkout-section {
-    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
+    padding: 20px; 
   }
   
   .checkout-title {
-    font-size: 22px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    font-size: 22px; 
   }
 
   .payment-image {
-    width: 60px; /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+    width: 60px; 
   }
 }
 
 @media (max-width: 576px) {
   .checkout-section {
-    padding: 15px; /* Ajusta el padding para pantallas muy pequeñas */
+    padding: 15px; 
   }
   
   .checkout-title {
-    font-size: 20px; /* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+    font-size: 20px; 
   }
-
   .payment-image {
-    width: 50px; /* Ajusta el tamaño de las imágenes para pantallas muy pequeñas */
+    width: 50px; 
   }
 }

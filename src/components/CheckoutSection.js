@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/checkout.css'; // Asegúrate de importar el archivo CSS
+import '../styles/checkout.css'; 
 
 const CheckoutSection = () => {
   return (

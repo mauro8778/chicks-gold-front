@@ -9,6 +9,8 @@
   object-fit: cover;
 }
 
+
+
 .background-image-container {
   position: absolute;
   top: 0;
@@ -143,6 +145,7 @@
 .home {
   position: relative;
   overflow: hidden;
+  cursor: default;
 }
 
 .pagination {

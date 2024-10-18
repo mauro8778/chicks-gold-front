@@ -14,11 +14,11 @@ const Navbar = () => {
                 <span className="separator"></span>
                 <ul>
                     <li><Link to="/">Currency</Link></li>
-                    <li><Link to="/about">Items</Link></li>
-                    <li><Link to="/contact">Accounts</Link></li>
-                    <li><Link to="/services">SERVICES</Link></li>
-                    <li><Link to="/swap">Swap</Link></li>
-                    <li><Link to="/sell">SELL</Link></li>
+                    <li><Link to="/">Items</Link></li>
+                    <li><Link to="/">Accounts</Link></li>
+                    <li><Link to="/">SERVICES</Link></li>
+                    <li><Link to="/">Swap</Link></li>
+                    <li><Link to="/">SELL</Link></li>
                 </ul>
                 <div className="navbar-right">
                     <div className="country-dropdown">
