@@ -1,7 +1,7 @@
 # Chicks Gold
 
 Chicks Gold es una plataforma que permite realizar transferencias de oro, ropa, gemas y armas en distintos videojuegos. Esta aplicación está diseñada para ofrecer una experiencia visual atractiva, aunque actualmente no cuenta con funcionalidad de backend.
-
+Puedes verla desplegada en [Chicks Gold Deploy]((https://chicks-gold-front.vercel.app/)).
 ## Tecnologías Utilizadas
 
 - React
@@ -36,8 +36,10 @@ Asegúrate de tener instalados los siguientes elementos en tu sistema:
 
 La aplicación se abrirá automáticamente en tu navegador predeterminado en la dirección http://localhost:3000.
 
-### Caracteristicas
-Interfaz de usuario atractiva
-Navegación sencilla entre diferentes secciones
-Vista previa de artículos (oro, ropa, gemas, armas)
+#### Características
+Interfaz de usuario atractiva: Diseño moderno y visualmente agradable para facilitar la experiencia del usuario.
+100% responsiva: La aplicación se adapta perfectamente a cualquier dispositivo, ya sea móvil, tableta o escritorio.
+Navegación sencilla: Fácil transición entre las diferentes secciones de la aplicación.
+Vista previa de artículos: Los usuarios pueden explorar y visualizar los artículos disponibles, como oro, ropa, gemas y armas.
+Totalmente frontend: La aplicación es solo una demostración visual, sin funcionalidad de backend en esta etapa.
 
